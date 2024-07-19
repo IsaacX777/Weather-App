@@ -19,6 +19,8 @@ def data_fetch(location):
     # Parse the results as JSON
     jsonData = response.json()
 
+    print(jsonData)
+
     return jsonData
 
 # print(data_fetch("Houston"))
